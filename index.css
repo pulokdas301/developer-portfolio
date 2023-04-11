@@ -12,7 +12,7 @@ span {
     color: salmon;
 }
 
-section {
+.top-banner {
     display: flex;
     margin-bottom: 10%;
 }
@@ -43,4 +43,28 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.box-container {
+    width: 100%;
+    display: flex;
+
+
+}
+
+.left_side {
+    width: 36%;
+    padding: 5%;
+    box-shadow: 10px 10px 20px green;
+    margin: 7%;
+
+
+}
+
+#left-side {
+    border-left: 7px solid red;
+}
+
+#right-side {
+    border-left: 7px solid blue;
 }
